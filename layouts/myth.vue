@@ -3,10 +3,10 @@
     <!-- Badge oben links -->
     <div
       class="myth-badge"
-      :class="$frontmatter.mythCategory === 'fail' ? 'badge-fail' : 'badge-myth'"
+      :class="$frontmatter.moduleType === 'fail' ? 'badge-fail' : 'badge-myth'"
     >
-      <span class="badge-label">{{ $frontmatter.mythCategory === 'fail' ? 'FAIL' : 'MYTHOS' }}</span>
-      <span class="badge-number">{{ $frontmatter.mythNo }}</span>
+      <span class="badge-label">{{ $frontmatter.moduleType === 'fail' ? 'FAIL' : 'MYTHOS' }}</span>
+      <span class="badge-number">{{ $frontmatter.moduleNo }}</span>
     </div>
 
     <!-- Haupt-Inhalt -->
@@ -16,7 +16,7 @@
 
     <!-- Footer -->
     <div class="myth-footer">
-      <span class="footer-title">{{ $frontmatter.mythTitle }}</span>
+      <span class="footer-title">{{ $frontmatter.moduleTitle }}</span>
       <span class="footer-conf">heise secIT 2026</span>
     </div>
   </div>
