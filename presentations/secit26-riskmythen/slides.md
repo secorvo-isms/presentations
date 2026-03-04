@@ -55,27 +55,27 @@ layout: center
 class: text-center
 ---
 
-<div class="text-4xl font-bold mb-6">Danke.</div>
+<div class="text-4xl font-bold mb-4">Danke.</div>
 
 <div class="text-gray-400 mb-8">Fragen? Widerspruch? Gerne.</div>
 
-<div class="mt-8 flex gap-16 justify-center text-sm text-gray-500">
-  <div>
-    <div class="text-gray-300 font-medium mb-1">Kai Jendrian</div>
-    <div>kai.jendrian@secorvo.de</div>
-    <div class="mt-1">
-      <a href="https://www.linkedin.com/in/0x2e6b6169/" class="text-blue-500 hover:text-blue-400">linkedin.com/in/0x2e6b6169</a>
+<div class="flex gap-20 justify-center items-center text-sm text-gray-500">
+  <div class="flex flex-col items-center gap-3">
+    <img src="/assets/authors/qr-kai-jendrian.png" class="w-32 h-32" />
+    <div>
+      <div class="text-gray-300 font-medium">Kai Jendrian</div>
+      <div>kai.jendrian@secorvo.de</div>
     </div>
   </div>
-  <div>
-    <div class="text-gray-300 font-medium mb-1">Oliver Oettinger</div>
-    <div>oliver.oettinger@secorvo.de</div>
-    <div class="mt-1">
-      <a href="https://www.linkedin.com/in/oliver-oettinger-41621925b/" class="text-blue-500 hover:text-blue-400">linkedin.com/in/oliver-oettinger</a>
+  <div class="flex flex-col items-center gap-3">
+    <img src="/assets/authors/qr-oliver-oettinger.png" class="w-32 h-32" />
+    <div>
+      <div class="text-gray-300 font-medium">Oliver Oettinger</div>
+      <div>oliver.oettinger@secorvo.de</div>
     </div>
   </div>
 </div>
 
-<div class="mt-8 text-sm text-gray-600">
+<div class="mt-6 text-sm text-gray-600">
   secIT 2026 · heise Medien · Hannover
 </div>
