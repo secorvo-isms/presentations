@@ -8,29 +8,20 @@
 ---
 layout: myth
 moduleType: myth
-moduleNo: 1
 moduleTitle: "Wir reden alle über Risiken"
 context: talk
 transition: fade
 ---
 
 <!-- ─── VERSION A: MIT BILD ─────────────────────────────────────────────── -->
-<!-- Bild ablegen unter: public/assets/risk/myth/babel.jpg                   -->
-<!-- Empfehlung: Turmbau zu Babel, dunkle Architektur, Chaos-Motiv           -->
+<!-- Bild: public/assets/risk/myth/babel.png                                 -->
 
 <div class="grid grid-cols-[1fr_1.2fr] h-full gap-8 items-center">
 
   <!-- Bild-Spalte -->
   <div class="relative h-full rounded-xl overflow-hidden">
-    <!-- Platzhalter – auskommentieren sobald Bild vorhanden -->
-    <div class="absolute inset-0 bg-gradient-to-br from-slate-700 to-slate-900
-                flex items-end p-4 text-gray-600 text-xs">
-      → public/assets/risk/myth/babel.jpg
-    </div>
-    <!-- Bild einkommentieren wenn vorhanden:
-    <img src="/assets/risk/myth/babel.jpg"
+    <img src="/assets/risk/myth/babel.png"
          class="absolute inset-0 w-full h-full object-cover opacity-70" />
-    -->
     <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#1a1a2e]"></div>
   </div>
 
@@ -42,15 +33,13 @@ transition: fade
         /ˈriːzikoː/ · Subst. · Neutrum
       </div>
     </div>
-
     <div class="space-y-2 mt-2">
       <div class="text-xl text-gray-200">① Eintrittswahrscheinlichkeit</div>
       <div class="text-xl text-gray-200">② Schadenshöhe</div>
       <div class="text-xl text-gray-200">③ Produkt aus beidem</div>
       <div class="text-xl text-gray-200">④ Auswirkung auf Ziele</div>
-      <div class="text-xl text-gray-600 italic">⑤ Was auch immer</div>
+      <div class="text-xl text-gray-200 italic">⑤ Was auch immer</div>
     </div>
-
     <div class="text-red-400 italic text-lg border-t border-red-900 pt-4">
       — je nachdem, wen man fragt
     </div>
@@ -61,7 +50,6 @@ transition: fade
 ---
 layout: myth
 moduleType: myth
-moduleNo: 1
 moduleTitle: "Wir reden alle über Risiken"
 context: talk
 transition: fade
@@ -93,40 +81,34 @@ transition: fade
 
   <!-- Definitionen als Magazin-Spalten -->
   <div class="grid grid-cols-5 gap-3">
-
     <div class="border-t-2 border-red-400 pt-3">
       <div class="text-3xl font-black text-red-400">①</div>
       <div class="text-sm text-gray-300 mt-2 leading-snug">
         Eintrittswahr-<br>scheinlichkeit
       </div>
     </div>
-
     <div class="border-t-2 border-red-500/70 pt-3">
       <div class="text-3xl font-black text-red-500/70">②</div>
       <div class="text-sm text-gray-400 mt-2 leading-snug">Schadenshöhe</div>
     </div>
-
     <div class="border-t-2 border-red-600/50 pt-3">
       <div class="text-3xl font-black text-red-600/50">③</div>
       <div class="text-sm text-gray-500 mt-2 leading-snug">
         Produkt<br>aus beidem
       </div>
     </div>
-
     <div class="border-t-2 border-red-700/30 pt-3">
       <div class="text-3xl font-black text-red-700/30">④</div>
       <div class="text-sm text-gray-600 mt-2 leading-snug">
         Auswirkung<br>auf Ziele
       </div>
     </div>
-
     <div class="border-t-2 border-gray-800 pt-3">
       <div class="text-3xl font-black text-gray-700">⑤</div>
       <div class="text-sm text-gray-700 mt-2 leading-snug italic">
         Was auch<br>immer
       </div>
     </div>
-
   </div>
 
   <!-- Punchline -->
@@ -141,7 +123,6 @@ transition: fade
 ---
 layout: myth
 moduleType: myth
-moduleNo: 1
 moduleTitle: "Wir reden alle über Risiken"
 context: talk
 transition: fade
@@ -175,7 +156,6 @@ transition: fade
 ---
 layout: myth
 moduleType: myth
-moduleNo: 1
 moduleTitle: "Wir reden alle über Risiken"
 context: talk
 transition: fade
@@ -220,7 +200,6 @@ transition: fade
 ---
 layout: myth
 moduleType: myth
-moduleNo: 1
 moduleTitle: "Wir reden alle über Risiken"
 context: talk
 transition: fade
@@ -267,7 +246,6 @@ transition: fade
 ---
 layout: myth
 moduleType: myth
-moduleNo: 1
 moduleTitle: "Wir reden alle über Risiken"
 context: talk
 transition: fade
