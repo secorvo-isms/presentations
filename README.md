@@ -129,6 +129,8 @@ Der Hauptindex (`/`) listet alle verfügbaren Präsentationen mit Links.
 
 ## Asset-Konventionen
 
-- Alle Assets unter `public/assets/<thema>/<untertyp>/`
-- Referenzierung in Modulen als absolute URL: `/assets/risk/myth/bild.png`
+- Alle geteilten Assets unter `public/assets/` (Root-Ebene)
+- Referenzierung in Modulen als absolute URL: `/assets/authors/qr-name.png`
+- Jede Präsentation hat eine `vite.config.ts`, die `publicDir` auf den Root `public/` zeigt –
+  dadurch stehen alle Assets in Dev-Server und Build zur Verfügung
 - Vite-Bundle-Assets (Bildoptimierung etc.) nur wenn explizit nötig und dokumentiert
