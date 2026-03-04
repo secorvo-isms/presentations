@@ -3,6 +3,8 @@ theme: default
 title: "Risikomythen – secIT 2026"
 titleTemplate: "%s | heise secIT 2026"
 keywords: IT-Security, Risiko, Mythen, Fails, Risikomanagement
+addons:
+  - slidev-addon-secorvo
 download: true
 transition: slide-left
 colorSchema: dark
