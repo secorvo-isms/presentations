@@ -41,52 +41,7 @@ layout: default
 
 ## Agenda
 
-<div class="grid grid-cols-2 gap-4 mt-4">
-
-<div>
-
-**Mythen**
-
-- Mythos 1: „Patchen kann warten"
-- Mythos 2: „Unsere Firewall schützt uns"
-- Mythos 3: „Wir sind zu klein für Angreifer"
-- Mythos 4: „Wir reden alle über Risiken"
-
-</div>
-
-<div>
-
-**Reale Fails**
-
-- Fail 1: Ransomware durch ungepatches VPN
-
-</div>
-
-</div>
-
-<div class="absolute bottom-8 text-sm text-gray-500">
-  → Jeder Mythos endet mit einem konkreten Takeaway
-</div>
-
----
-src: ../../modules/risk/myth/patching.md
----
-
----
-src: ../../modules/risk/myth/firewall.md
----
-
----
-src: ../../modules/risk/myth/zu-klein.md
----
-
----
-src: ../../modules/risk/myth/sprachverwirrung.md
----
-
----
-src: ../../modules/risk/fail/ransomware-vpn.md
----
+<!-- Module hier eintragen -->
 
 ---
 layout: center
@@ -94,20 +49,6 @@ class: text-center
 ---
 
 # Fazit
-
-<div class="mt-8 text-2xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
-
-Risiken entstehen nicht aus Unwissen –
-sie entstehen aus **bequemen Annahmen**.
-
-</div>
-
-<div class="mt-8 text-gray-500">
-
-Jeder Mythos in diesem Vortrag war mal eine **vernünftige Faustregel**.
-Keine ist es heute noch.
-
-</div>
 
 ---
 layout: center
