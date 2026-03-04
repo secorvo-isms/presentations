@@ -2,3 +2,8 @@ node_modules/
 dist/
 .slidev/
 *.local
+input/
+tmp/
+input/
+tmp/
+package-lock.json

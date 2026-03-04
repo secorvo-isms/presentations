@@ -1,6 +1,0 @@
-- Ich möchte in dem Repository mehrere Präsentationen verwalten können, die aus dem Fundus an Modulen zusammengestellt werden können
-- Die Module sollen zukünftig weitere Themen umfassen können und tiefer verschachtelt sein: für die secIT vielleicht risk/myth risk/fail mit beliebigen Tiefen
-- Ergäbe es Sinn, die Assets analog zu den Modulen zu strukturieren
-- Ich möchte einen Workflow, der jede Präsentation bei github pages in einem Unterverzeichnis presentations veröffentlicht. Der Hauptindex soll eine Liste mit Verweisen auf die einzelnen Präsentationen sein
-- Die Veröffentlichung soll mit sli.dev passieren. Ich möchte die Artefakte zur Veröffentlichung aus einem dedizierten Branch nach github-Pages auf Basis von Best-Practices veröffentlichen
-- 
