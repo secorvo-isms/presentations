@@ -86,12 +86,61 @@ Slidev löst `src:`-Pfade relativ zur `slides.md` auf – funktioniert auch übe
 
 ---
 
-## Lokale Entwicklung
+## Voraussetzungen
 
-Voraussetzung: [just](https://github.com/casey/just) und Node.js ≥ 18
+### just installieren (Linux / WSL)
+
+`just` ist der Task-Runner für dieses Repository. Einmalige Installation:
 
 ```bash
-just dev secit26-riskmythen     # Dev-Server für eine Präsentation
+# Empfohlen: offizielles Install-Script
+curl --proto '=https' --tlsv1.2 -sSf https://just.systems/install.sh \
+  | bash -s -- --to ~/.local/bin
+```
+
+Sicherstellen, dass `~/.local/bin` im `PATH` liegt (in `~/.bashrc` oder `~/.zshrc`):
+
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Alternativ via [Homebrew](https://brew.sh) (funktioniert auch unter WSL):
+
+```bash
+brew install just
+```
+
+Installation prüfen:
+
+```bash
+just --version
+```
+
+### nvm und Node.js installieren
+
+```bash
+# nvm installieren
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# Neues Terminal öffnen, dann Node-Version aus .nvmrc installieren
+nvm install
+```
+
+---
+
+## Lokale Entwicklung
+
+Nach dem Klonen einmalig:
+
+```bash
+just setup      # Node-Version, npm-Tools und alle Abhängigkeiten einrichten
+```
+
+Danach:
+
+```bash
+just dev                        # Dev-Server (Standardpräsentation)
+just dev secit26-riskmythen     # Dev-Server für eine bestimmte Präsentation
 just build secit26-riskmythen   # Einzel-Build
 just build-all                  # Alle Präsentationen bauen
 just index                      # dist/index.html generieren

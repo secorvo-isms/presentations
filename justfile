@@ -10,6 +10,33 @@ nvm_init := '. "$NVM_DIR/nvm.sh" && nvm use --silent'
 # Standardpräsentation
 default_presentation := "secit26-riskmythen"
 
+# Alle benötigten Tools einrichten (einmalig nach dem Klonen)
+setup:
+    #!/usr/bin/env bash
+    set -euo pipefail
+
+    # nvm prüfen
+    if [ ! -f "$NVM_DIR/nvm.sh" ]; then
+        echo "✗ nvm nicht gefunden. Installation: https://github.com/nvm-sh/nvm#install--update-script"
+        exit 1
+    fi
+    . "$NVM_DIR/nvm.sh"
+
+    # Node-Version aus .nvmrc installieren und aktivieren
+    echo "▶ Node-Version aus .nvmrc installieren..."
+    nvm install
+    nvm use
+
+    # qrcode CLI global installieren (für QR-Code-Generierung)
+    echo "▶ qrcode CLI installieren..."
+    npm install -g qrcode
+
+    # Abhängigkeiten aller Präsentationen installieren
+    echo "▶ Abhängigkeiten installieren..."
+    just install-all
+
+    echo "✓ Setup abgeschlossen. Weiter mit: just dev"
+
 # Dev-Server für eine Präsentation starten
 # Verwendung: just dev [name]
 dev name=default_presentation:
