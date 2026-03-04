@@ -10,8 +10,9 @@ transition: slide-left
 colorSchema: dark
 aspectRatio: 16/9
 fonts:
-  sans: "Inter"
-  mono: "Fira Code"
+  sans: "Bricolage Grotesque"
+  mono: "JetBrains Mono"
+  weights: "200,400,600,800"
 ---
 
 <div class="flex flex-col items-center justify-center h-full gap-6">

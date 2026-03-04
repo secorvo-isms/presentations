@@ -22,7 +22,7 @@ transition: fade
   <div class="relative h-full rounded-xl overflow-hidden">
     <img src="/assets/risk/myth/babel.png"
          class="absolute inset-0 w-full h-full object-cover opacity-70" />
-    <div class="absolute inset-0 bg-gradient-to-r from-transparent to-[#1a1a2e]"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-transparent to-#111111"></div>
   </div>
 
   <!-- Text-Spalte -->
@@ -165,7 +165,7 @@ transition: fade
 
 <div class="grid grid-cols-3 gap-5 mt-6">
 
-  <div class="p-5 bg-slate-800/60 rounded-xl border border-slate-700 flex flex-col gap-3">
+  <div class="p-5 bg-zinc-900/80 rounded-xl border border-zinc-800 flex flex-col gap-3">
     <div class="text-xs text-gray-600 tracking-widest uppercase">ISO 31000:2018</div>
     <div class="text-red-400 font-black text-2xl leading-tight">Unsicherheit<br>über Ziele</div>
     <div class="text-gray-500 text-sm mt-auto">
@@ -173,7 +173,7 @@ transition: fade
     </div>
   </div>
 
-  <div class="p-5 bg-slate-800/60 rounded-xl border border-slate-700 flex flex-col gap-3">
+  <div class="p-5 bg-zinc-900/80 rounded-xl border border-zinc-800 flex flex-col gap-3">
     <div class="text-xs text-gray-600 tracking-widest uppercase">NIST SP 800-30</div>
     <div class="text-red-400 font-black text-2xl leading-tight">Threat ×<br>Vuln × Impact</div>
     <div class="text-gray-500 text-sm mt-auto">
@@ -181,7 +181,7 @@ transition: fade
     </div>
   </div>
 
-  <div class="p-5 bg-slate-800/60 rounded-xl border border-slate-700 flex flex-col gap-3">
+  <div class="p-5 bg-zinc-900/80 rounded-xl border border-zinc-800 flex flex-col gap-3">
     <div class="text-xs text-gray-600 tracking-widest uppercase">FAIR</div>
     <div class="text-red-400 font-black text-2xl leading-tight">LEF ×<br>LM</div>
     <div class="text-gray-500 text-sm mt-auto">
@@ -235,7 +235,7 @@ transition: fade
 
 </v-clicks>
 
-<div v-click class="mt-8 p-4 bg-slate-800 rounded-xl border border-slate-600 text-sm leading-loose">
+<div v-click class="mt-8 p-4 bg-zinc-900 rounded-xl border border-zinc-700 text-sm leading-loose">
   <span class="text-gray-500 text-xs tracking-widest uppercase block mb-2">Minimalset</span>
   <span class="text-gray-300">
     Risiko · Bedrohung · Schwachstelle · Schadenshöhe · Eintrittswahrscheinlichkeit ·

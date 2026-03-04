@@ -23,7 +23,8 @@
   display: flex;
   flex-direction: column;
   padding: 2.5rem 3rem 2rem;
-  background: #1a1a2e;
+  background: #111111;
+  color: #f0f0f0;
 }
 
 .myth-content {
@@ -36,9 +37,9 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 0.75rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid #2a2a2a;
   font-size: 0.7rem;
-  color: rgba(255, 255, 255, 0.35);
+  color: #3a3a3a;
 }
 
 .footer-conf {
